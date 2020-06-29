@@ -24,9 +24,9 @@ def test_quando_listar_tarefa_retorno_deve_ser_lista():
 def test_deve_listar_tarefas():
     tarefa = {
         "id": 1,
-        "Titulo": "Titulo",
-        "Descricao": "Descrição",
-        "Estado": "Finalizado"
+        "titulo":"titulo",
+        "descricao":"descrição",
+        "estado":"finalizado",
     }
     TAREFAS.append(tarefa)
     cliente = TestClient(app)
